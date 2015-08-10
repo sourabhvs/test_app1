@@ -1,0 +1,6 @@
+development:
+ adapter: postgresql
+ port: 5432
+ username: sourabh
+ password: password
+ database: sourabh_dev

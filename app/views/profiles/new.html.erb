@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<%=form_for @profile do |f|%>
+
+
+<%=f.label :firstname%><%=f.text_field :firstname%><br /><br />
+<%=f.label :lastname%><%=f.text_field :lastname %><br /><br />
+<%=f.label :designation%><%=f.text_field :designation %><br /><br />
+<%=f.label :origin%><%=f.text_field :origin%><br /><br />
+<%=f.submit "submit"%>
+<%end%>
+</body>
+</html>
